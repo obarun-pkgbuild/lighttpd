@@ -3,8 +3,8 @@
 # 						Maintainer: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=lighttpd
-pkgver=1.4.45
-pkgrel=5
+pkgver=1.4.47
+pkgrel=2
 pkgdesc='A secure, fast, compliant and very flexible web-server'
 license=('custom')
 arch=(x86_64)
@@ -19,7 +19,7 @@ backup=('etc/lighttpd/lighttpd.conf' 'etc/logrotate.d/lighttpd')
 options=('emptydirs')
 source=("https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-${pkgver}.tar.xz"
         'lighttpd.logrotate.d' 'lighttpd.conf' 'lighttpd.tmpfiles')
-sha256sums=('1c97225deea33eefba6d4158c2cef27913d47553263516bbe9d2e2760fc43a3f'
+sha256sums=('e47e64a9cc2b824c45792a6b1a5542945956e77ede3454845f42548495946c1c'
             '41f6c0042bb61021553779f861910e335834f6c15e4411756cdc6233b31076fe'
             'fece4581bebf39768571962dedce176b2b5f487c0abb5c1cfb35395de216c01f'
             'd8a185145a7c08b4fd8c8e6c12dae3e176389dd9b1c66e239757b2ba5108c871')
